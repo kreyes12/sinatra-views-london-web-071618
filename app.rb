@@ -7,6 +7,6 @@ class App < Sinatra::Base
 	end
 	
 	get '/info'
-	  ern :info
+	  erb :info
 	
 end
